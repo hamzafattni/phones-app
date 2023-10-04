@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+
+}
+/* header work start */
+.header{
+    flex-wrap: wrap;
+    background-color: #007aff;
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+    padding: 15px;
+}
+.head-input{
+    border: none;
+    font-size: medium;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+}
+.head-btn{
+    border-radius: 30px;
+    flex-wrap: wrap;
+    width: 90px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid black;
+    font-size: 15px;
+    font-family: monospace;
+}
+.head-img{
+    flex-wrap: wrap;
+    width: 150px;
+    height: 80px;
+    border-radius: 40px;
+}
+
+.head-h1{
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-size: 35px;
+
+}
+/* header work end */
+/* brand work start */
+.brand-name{
+    flex-wrap: wrap;
+    background-color: wheat;
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin-top: 1px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.advertisment{
+    width: 1435px;
+    height: 250px;
+    flex-wrap: wrap; 
+    margin-top: 1px;
+}
+.pera-1{
+    flex-wrap: wrap;
+    font-size: 20px; 
+    background-color: #f1f3f6;
+    padding: 5px;
+}
+/* brand work end */
+/* list work start */
+.container{
+    margin-top: 10px;
+    font-size: 25x;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: #f1f3f6 ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.list-btn{
+    width: 110px;
+    height: 50px;
+    background-color: black;
+    color:wheat;
+    border: 2px solid wheat;
+    border-radius: 20px;
+}
+.containers{
+    padding: 1px;
+    font-size: 25x;
+    gap: 2px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+}
+.cart-btn{
+    margin-top: 20px;
+    margin-left: 650px;
+    width: 110px;
+    height: 50px;
+    background-color: black;
+    color:wheat;
+    border: 1px solid wheat;
+    border-radius: 20px;
+}
+
+
+/* list work end */
+
+/* navbar styling start */
+.nav-style{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #f1f3f6;
+    padding: 10px;
+    margin-top: 10px;
+}
+.navbar{
+    background-color:#007aff ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 2px;
+    list-style: none;
+    gap: 10px;
+}
+.list-style{
+    list-style: none;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+li{
+    margin-top: 10px;
+}
+
+/* navbar styling end */
+
+/* cart html styling start */
+.shop-btn{
+    margin-top: 20px;
+    margin-left: 680px;
+    width: 110px;
+    height: 50px;
+    background-color: black;
+    color:wheat;
+    border: 1px solid wheat;
+    border-radius: 20px;
+}
+.cart-head{
+    background-color: #f1f3f6;
+    padding: 2px;
+    margin-top: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.cart-js{
+    flex-wrap: wrap;
+    margin-left: 2px;
+    margin-top: 5px;
+    font-size: 55x;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: #f1f3f6 ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+.add-btn{
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    color:wheat;
+    border: 1px solid wheat;
+    border-radius: 10px;
+}
+
+.subtract-btn{
+    width: 50px;
+    height: 30px;
+    background-color: black;
+    color:wheat;
+    border: 1px solid wheat;
+    border-radius: 10px;
+}
+
+.delet-btn{
+    margin-top: 5px;
+    width: 90px;
+    height: 40px;
+    background-color: black;
+    color:wheat;
+    border: 1px solid wheat;
+    border-radius: 10px;
+}
+
+
+.total-amount{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+.not-found{
+    text-align: center;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    padding: 50px;
+    color: red;
+}
